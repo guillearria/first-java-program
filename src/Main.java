@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        // --- PRINTING AND COMMENTING
+
         System.out.println("Print with a new line statement.");
         System.out.print("Print with an new line escape sequence.\n");
         System.out.println("Print with \"other\" escape\tsequences.");
@@ -11,6 +13,8 @@ public class Main {
         Line
         Comment.
          */
+
+        // --- VARIABLES
 
         /*
         Data Types in Java
@@ -48,6 +52,20 @@ public class Main {
         char chr_var = '@';
         String str_var = "Aloha";
 
-        System.out.println(str_var + chr_var);
+        System.out.println(str_var + " " + chr_var + "Guille");
+
+        // --- SWAPPING VARIABLES
+
+        String x = "water";     // declare
+        String y  = "wine";
+        String temp;            // initialize
+
+        System.out.println(x + y);
+
+        temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println(x + y);
     }
 }
