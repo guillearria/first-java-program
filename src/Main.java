@@ -72,18 +72,35 @@ public class Main {
 
         // --- SCANNER
         // Java Utility Package
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("What is your name? ");
+//        String name = scanner.nextLine();
+//        System.out.println("How old are you? ");
+//        int age = scanner.nextInt();
+//        scanner.nextLine();
+//        System.out.println("What is your favorite food? ");
+//        String food = scanner.nextLine();
+//
+//        System.out.println("Hello " + name);
+//        System.out.println("You are " + age + " years old.");
+//        System.out.println("You like " + food);
 
-        System.out.println("What is your name? ");
-        String name = scanner.nextLine();
-        System.out.println("How old are you? ");
-        int age = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("What is your favorite food? ");
-        String food = scanner.nextLine();
+        // -- EXPRESSIONS
 
-        System.out.println("Hello " + name);
-        System.out.println("You are " + age + " years old.");
-        System.out.println("You like " + food);
+        /*
+         expression = operands and operators
+         operands = values, variables, numbers, quantity
+         operators = + - * / %
+         */
+
+        double friends = 10;
+        friends = friends % 3;        // remainder operator
+        friends++;                      // increment operator
+        friends--;                      // decrement operator
+        friends = (double) friends/2;   // data type casting
+        System.out.println(friends);
+
+
     }
 }
